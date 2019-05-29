@@ -3,9 +3,8 @@ Yamllint grep filtered. Work in progress, for working with ansible etc and hidin
 
 ## filters 
 grep 
-
-  - errors only
+  - lines containing "error" only
   - no "line too long"
   - no "trailing spaces"
-
+  - no "too many blank lines"
 
